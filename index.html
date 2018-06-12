@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>nav-side</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sidenav-style.css">
+    <link rel="stylesheet" href="assets/css/fancy-hbm.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md fixed-top">
+  <div class="container-fluid"><a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler menu-closed" id="sidebarCollapse">
+      <span class="sr-only">Toggle navigation</span>
+      <div class="wrapper-menu">
+        <div class="line-menu half start"></div>
+        <div class="line-menu"></div>
+        <div class="line-menu half end"></div>
+      </div>
+    </button>
+    <div  id="sidebar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+      </ul>
+    </div>
+  </div>  
+</nav>
+<div class="overlay" id="menuBgOverlay"></div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/side-nav-control.js"></script>
+
+</body>
+</html>

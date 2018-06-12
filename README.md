@@ -1,1 +1,1 @@
-## Bootstrap collapsable side menu
+## Bootstrap collapsible main nav menu from side
